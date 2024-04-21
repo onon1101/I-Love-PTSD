@@ -19,6 +19,7 @@ jobs:
             deps_cmdline: sudo apt-get update && sudo apt-get -y install clang cmake ninja-build libglu1-mesa-dev mesa-common-dev xorg-dev
           - os: windows-latest
             compiler: msvc
+            generator: Visual Studio 17 2022
             # - os: windows-latest
             #   compiler: mingw
             # generator: Ninja
