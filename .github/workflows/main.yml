@@ -17,16 +17,21 @@ jobs:
             compiler: clang
             generator: Ninja
             deps_cmdline: sudo apt-get update && sudo apt-get -y install clang cmake ninja-build libglu1-mesa-dev mesa-common-dev xorg-dev
-          # - os: windows-latest
-          #   compiler: msvc
-          # - os: windows-latest
-          #   compiler: mingw
+          - os: windows-latest
+            compiler: msvc
+            # - os: windows-latest
+            #   compiler: mingw
+            generator: Ninja
           - os: macos-latest
             compiler: clang
             generator: Ninja
             deps_cmdline: brew install cmake ninja mesa-glu mesa xorg-server
 
     steps:
+      - if: matrix.config.os == 'windows-latest' && matrix.config.compiler == 'mingw'
+        name: "Set Windows-MSVC-Compiler"
+        uses: egor-tensin/vs-shell@v2
+
       - name: "Checkout Repository"
         uses: actions/checkout@v4
         with:
