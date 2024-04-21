@@ -19,6 +19,8 @@ jobs:
           #   compiler: mingw
           - os: macos-latest
             compiler: clang
+            deps_cmdline: brew install cmake ninja mesa-glu mesa xorg-server
+            generator: Ninja
 
     steps:
       - name: "Checkout Repository"
@@ -26,11 +28,7 @@ jobs:
         with:
           submodules: recursive
 
-      - name: "Setup required packages"
-        run: |
-          brew install cmake ninja mesa-glu mesa xorg-server
-
       - name: "Setup cmake"
         run: |
-          cmake -B build -DCMAKE_BUILD_TYPE=Debug
+          cmake -B build -DCMAKE_BUILD_TYPE=Debug -G "Ninja"
           cmake --build build
