@@ -21,7 +21,7 @@ jobs:
             compiler: msvc
             # - os: windows-latest
             #   compiler: mingw
-            generator: Ninja
+            # generator: Ninja
           - os: macos-latest
             compiler: clang
             generator: Ninja
