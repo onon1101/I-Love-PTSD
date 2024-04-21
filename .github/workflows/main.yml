@@ -28,7 +28,14 @@ jobs:
         with:
           submodules: recursive
 
+      - name: Install Dependencies
+        shell: bash
+        run: |
+          if [[ ! -z "${{ matrix.config.deps_cmdline }}" ]]; then
+            eval ${{ matrix.config.deps_cmdline }}
+          fi
+
       - name: "Setup cmake"
         run: |
-          cmake -B build -DCMAKE_BUILD_TYPE=Debug
+          cmake -B build -DCMAKE_BUILD_TYPE=Debug -G "${{ matrix.config.generator }}"
           cmake --build build
