@@ -1,12 +1,10 @@
-
 name: main
 
-on: 
+on:
   merge_group:
   pull_request:
 
 jobs:
-
   windows-visual-studio:
     runs-on: windows-latest
     steps:
@@ -21,10 +19,11 @@ jobs:
           submodules: recursive
 
       - name: "Setup cmake"
+
         run: |
           cmake -B build -DCMAKE_BUILD_TYPE=Debug
           cmake --build build
-        
+
   windows-mingw:
     runs-on: windows-latest
     steps:
@@ -35,7 +34,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: recursive
-    
+
       - name: "Build"
         run: |
           cmake -B build -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles"
@@ -49,12 +48,11 @@ jobs:
       - name: "Setup required packages"
         run: brew install cmake ninja mesa-glu mesa xorg-server
 
-      
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
           submodules: recursive
-        
+
       - name: Building Project
         run: |
           cmake -B build -G "Ninja" -DCMAKE_BUILD_TYPE=Debug
@@ -77,7 +75,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: recursive
-        
+
       - name: Building Project
         env:
           CC: clang
@@ -85,7 +83,7 @@ jobs:
         run: |
           cmake -B build -G "Ninja" -DCMAKE_BUILD_TYPE=Debug
           cmake --build build
-          
+
   linux-gcc:
     runs-on: ubuntu-latest
     steps:
