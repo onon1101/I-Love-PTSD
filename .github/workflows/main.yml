@@ -11,16 +11,20 @@ jobs:
         config:
           - os: ubuntu-latest
             compiler: gcc
+            generator: Ninja
+            deps_cmdline: sudo apt-get update && sudo apt-get -y install gcc cmake ninja-build libglu1-mesa-dev mesa-common-dev xorg-dev
           - os: ubuntu-latest
             compiler: clang
+            generator: Ninja
+            deps_cmdline: sudo apt-get update && sudo apt-get -y install clang cmake ninja-build libglu1-mesa-dev mesa-common-dev xorg-dev
           # - os: windows-latest
           #   compiler: msvc
           # - os: windows-latest
           #   compiler: mingw
           - os: macos-latest
             compiler: clang
-            deps_cmdline: brew install cmake ninja mesa-glu mesa xorg-server
             generator: Ninja
+            deps_cmdline: brew install cmake ninja mesa-glu mesa xorg-server
 
     steps:
       - name: "Checkout Repository"
