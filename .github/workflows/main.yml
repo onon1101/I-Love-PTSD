@@ -20,18 +20,22 @@ jobs:
           - os: windows-latest
             compiler: msvc
             generator: Visual Studio 17 2022
-            # - os: windows-latest
-            #   compiler: mingw
-            # generator: Ninja
+          - os: windows-latest
+            compiler: mingw
+            generator: Ninja
           - os: macos-latest
             compiler: clang
             generator: Ninja
             deps_cmdline: brew install cmake ninja mesa-glu mesa xorg-server
 
     steps:
+      # - if: matrix.config.os == 'windows-latest' && matrix.config.compiler == 'msvc'
+      #   name: "Set Windows-MSVC-Compiler"
+      #   uses: egor-tensin/vs-shell@v2
+
       - if: matrix.config.os == 'windows-latest' && matrix.config.compiler == 'mingw'
-        name: "Set Windows-MSVC-Compiler"
-        uses: egor-tensin/vs-shell@v2
+        name: "Set Windows-MinGW-Compiler"
+        uses: seanmiddleditch/gha-setup-ninja@master
 
       - name: "Checkout Repository"
         uses: actions/checkout@v4
