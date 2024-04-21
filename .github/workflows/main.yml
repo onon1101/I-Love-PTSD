@@ -22,7 +22,7 @@ jobs:
             generator: Visual Studio 17 2022
           - os: windows-latest
             compiler: mingw
-            generator: Ninja
+            generator: MinGW Makefiles
           - os: macos-latest
             compiler: clang
             generator: Ninja
