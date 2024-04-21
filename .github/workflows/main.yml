@@ -29,10 +29,6 @@ jobs:
             deps_cmdline: brew install cmake ninja mesa-glu mesa xorg-server
 
     steps:
-      # - if: matrix.config.os == 'windows-latest' && matrix.config.compiler == 'msvc'
-      #   name: "Set Windows-MSVC-Compiler"
-      #   uses: egor-tensin/vs-shell@v2
-
       - if: matrix.config.os == 'windows-latest' && matrix.config.compiler == 'mingw'
         name: "Set Windows-MinGW-Compiler"
         uses: seanmiddleditch/gha-setup-ninja@master
