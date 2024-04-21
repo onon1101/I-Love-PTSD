@@ -20,17 +20,17 @@ jobs:
           - os: macos-latest
             compiler: clang
 
-        step:
-          - name: "Checkout Repository"
-            uses: actions/checkout@v4
-            with:
-              submodules: recursive
+    steps:
+      - name: "Checkout Repository"
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
 
-          - name: "Setup required packages"
-            run: |
-              brew install cmake ninja mesa-glu mesa xorg-server
+      - name: "Setup required packages"
+        run: |
+          brew install cmake ninja mesa-glu mesa xorg-server
 
-          - name: "Setup cmake"
-            run: |
-              cmake -B build -DCMAKE_BUILD_TYPE=Debug
-              cmake --build build
+      - name: "Setup cmake"
+        run: |
+          cmake -B build -DCMAKE_BUILD_TYPE=Debug
+          cmake --build build
