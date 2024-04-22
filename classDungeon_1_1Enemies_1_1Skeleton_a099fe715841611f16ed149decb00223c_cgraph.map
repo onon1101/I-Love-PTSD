@@ -1,0 +1,7 @@
+<map id="Dungeon::Enemies::Skeleton::Skeleton" name="Dungeon::Enemies::Skeleton::Skeleton">
+<area shape="rect" id="node1" title=" " alt="" coords="5,73,192,113"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Enemy.html#a5bd4d4293c42442d3193c2118bdf1e72" title=" " alt="" coords="240,5,467,31"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Enemy.html#a277138a098d8f4bc750cacb47b11f551" title=" " alt="" coords="268,55,439,80"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Enemy.html#ae72f532336242299683a49b7706d0f29" title=" " alt="" coords="257,104,449,129"/>
+<area shape="rect" id="node5" href="$classDungeon_1_1Enemy.html#a0020a02108fb37805b4e5190cba7f9ec" title=" " alt="" coords="262,153,445,179"/>
+</map>

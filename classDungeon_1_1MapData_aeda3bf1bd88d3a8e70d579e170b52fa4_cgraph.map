@@ -1,0 +1,4 @@
+<map id="Dungeon::MapData::RemoveEnemy" name="Dungeon::MapData::RemoveEnemy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,191,45"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1SimpleMapData.html#aa76777e9c770e642345e757987659e2e" title=" " alt="" coords="239,5,409,45"/>
+</map>

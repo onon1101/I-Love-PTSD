@@ -1,0 +1,6 @@
+<map id="Dungeon::Tiles::FloorTar" name="Dungeon::Tiles::FloorTar">
+<area shape="rect" id="node1" title=" " alt="" coords="18,739,183,808"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Tiles_1_1GeneralFloor.html" title=" " alt="" coords="5,592,196,691"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Tile.html" title=" " alt="" coords="21,93,180,544"/>
+<area shape="rect" id="node4" title=" " alt="" coords="38,5,163,45"/>
+</map>

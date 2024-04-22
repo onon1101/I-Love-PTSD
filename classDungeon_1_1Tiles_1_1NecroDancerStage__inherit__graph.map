@@ -1,0 +1,6 @@
+<map id="Dungeon::Tiles::NecroDancerStage" name="Dungeon::Tiles::NecroDancerStage">
+<area shape="rect" id="node1" title=" " alt="" coords="5,768,199,852"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Tiles_1_1GeneralWall.html" title=" " alt="" coords="9,592,195,720"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Tile.html" title=" " alt="" coords="23,93,181,544"/>
+<area shape="rect" id="node4" title=" " alt="" coords="39,5,165,45"/>
+</map>

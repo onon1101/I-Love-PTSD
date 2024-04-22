@@ -1,0 +1,9 @@
+<map id="ToolSystem::Settings" name="ToolSystem::Settings">
+<area shape="rect" id="node1" title=" " alt="" coords="229,5,379,89"/>
+<area shape="rect" id="node2" href="$structToolSystem_1_1TBaseShovel.html" title=" " alt="" coords="112,137,291,192"/>
+<area shape="rect" id="node4" href="$structToolSystem_1_1TBaseWeapon.html" title=" " alt="" coords="317,137,504,192"/>
+<area shape="rect" id="node3" href="$classToolSystem_1_1EntityShovel.html" title=" " alt="" coords="5,240,179,309"/>
+<area shape="rect" id="node5" href="$classToolSystem_1_1EntityBroadsword.html" title=" " alt="" coords="203,240,405,309"/>
+<area shape="rect" id="node6" href="$classToolSystem_1_1EntityDagger.html" title=" " alt="" coords="430,247,605,302"/>
+<area shape="rect" id="node7" href="$classToolSystem_1_1EntityRapier.html" title=" " alt="" coords="629,247,800,302"/>
+</map>

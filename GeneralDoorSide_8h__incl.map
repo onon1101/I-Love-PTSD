@@ -1,0 +1,11 @@
+<map id="include/Dungeon/Tiles/GeneralDoorSide.h" name="include/Dungeon/Tiles/GeneralDoorSide.h">
+<area shape="rect" id="node1" title=" " alt="" coords="148,5,299,45"/>
+<area shape="rect" id="node2" href="$Tile_8h.html" title=" " alt="" coords="169,93,277,119"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,240,60,265"/>
+<area shape="rect" id="node4" href="$Elements_8h.html" title=" " alt="" coords="70,167,211,192"/>
+<area shape="rect" id="node8" title=" " alt="" coords="236,167,379,192"/>
+<area shape="rect" id="node9" title=" " alt="" coords="403,167,542,192"/>
+<area shape="rect" id="node5" title=" " alt="" coords="84,240,131,265"/>
+<area shape="rect" id="node6" title=" " alt="" coords="155,240,235,265"/>
+<area shape="rect" id="node7" title=" " alt="" coords="260,240,352,265"/>
+</map>

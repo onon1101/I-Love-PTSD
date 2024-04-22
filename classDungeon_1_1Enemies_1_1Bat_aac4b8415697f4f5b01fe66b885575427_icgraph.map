@@ -1,0 +1,4 @@
+<map id="Dungeon::Enemies::Bat::MoveBat" name="Dungeon::Enemies::Bat::MoveBat">
+<area shape="rect" id="node1" title=" " alt="" coords="208,5,363,45"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Enemies_1_1Bat.html#a43ce83413f87496552eb0c5998f1cf33" title=" " alt="" coords="5,5,160,45"/>
+</map>

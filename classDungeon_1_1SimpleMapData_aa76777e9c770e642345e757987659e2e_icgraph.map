@@ -1,0 +1,5 @@
+<map id="Dungeon::SimpleMapData::SetHasEntity" name="Dungeon::SimpleMapData::SetHasEntity">
+<area shape="rect" id="node1" title=" " alt="" coords="252,27,423,67"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1MapData.html#a1a3d3ac64cece0bb71c45a66dddf2c4c" title=" " alt="" coords="5,5,204,31"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1MapData.html#aeda3bf1bd88d3a8e70d579e170b52fa4" title=" " alt="" coords="12,55,197,95"/>
+</map>

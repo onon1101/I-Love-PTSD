@@ -1,0 +1,8 @@
+<map id="Dungeon::Enemies::Zombie::Move" name="Dungeon::Enemies::Zombie::Move">
+<area shape="rect" id="node1" title=" " alt="" coords="5,87,184,127"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Enemy.html#a44a53ed54f741a477607eae0d2352b36" title=" " alt="" coords="238,44,437,69"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Enemy.html#a5bd4d4293c42442d3193c2118bdf1e72" title=" " alt="" coords="491,5,717,31"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Enemy.html#af5cb6154fe75a36a2a2cc3b95ba9418a" title=" " alt="" coords="513,66,695,106"/>
+<area shape="rect" id="node5" href="$classDungeon_1_1Enemy.html#a13559f909a7b794ee58343ed7c1a58df" title=" " alt="" coords="232,145,443,185"/>
+<area shape="rect" id="node6" href="$classDungeon_1_1Enemy.html#a121e4d59e981425733f392fede860ba1" title=" " alt="" coords="239,209,435,235"/>
+</map>

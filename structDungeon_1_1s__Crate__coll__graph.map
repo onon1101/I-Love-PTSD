@@ -1,0 +1,7 @@
+<map id="Dungeon::s_Crate" name="Dungeon::s_Crate">
+<area shape="rect" id="node1" title=" " alt="" coords="36,227,164,267"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,109,45,149"/>
+<area shape="rect" id="node3" title=" " alt="" coords="70,109,130,149"/>
+<area shape="rect" id="node4" title=" " alt="" coords="155,109,237,149"/>
+<area shape="rect" id="node5" title=" " alt="" coords="132,5,260,60"/>
+</map>

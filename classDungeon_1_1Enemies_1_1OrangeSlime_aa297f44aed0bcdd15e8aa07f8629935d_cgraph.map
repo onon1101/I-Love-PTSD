@@ -1,0 +1,8 @@
+<map id="Dungeon::Enemies::OrangeSlime::Update" name="Dungeon::Enemies::OrangeSlime::Update">
+<area shape="rect" id="node1" title=" " alt="" coords="5,73,183,113"/>
+<area shape="rect" id="node2" href="$classToolBoxs.html#a7e6d815e8c01245413e2623e55a3c93a" title=" " alt="" coords="257,5,431,31"/>
+<area shape="rect" id="node3" href="$classAnimation.html#a9668117fb2995eccca9952c76467f81b" title=" " alt="" coords="263,55,425,80"/>
+<area shape="rect" id="node4" href="$classAnimation.html#a606e6f72f8dc6f5bb7436bfded6b9b53" title=" " alt="" coords="505,80,692,105"/>
+<area shape="rect" id="node6" href="$classDungeon_1_1Enemy.html#a72d9f115b1ece6af7f679b62c8c02e58" title=" " alt="" coords="231,156,457,181"/>
+<area shape="rect" id="node5" href="$classToolBoxs.html#a376391aa1d03d0d6101c2ea2464d4246" title=" " alt="" coords="740,80,919,105"/>
+</map>

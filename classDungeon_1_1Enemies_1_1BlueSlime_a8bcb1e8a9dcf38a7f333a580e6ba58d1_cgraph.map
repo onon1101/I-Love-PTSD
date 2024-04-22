@@ -1,0 +1,8 @@
+<map id="Dungeon::Enemies::BlueSlime::BlueSlime" name="Dungeon::Enemies::BlueSlime::BlueSlime">
+<area shape="rect" id="node1" title=" " alt="" coords="5,97,200,137"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Enemy.html#a5bd4d4293c42442d3193c2118bdf1e72" title=" " alt="" coords="248,5,475,31"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Enemy.html#a121e4d59e981425733f392fede860ba1" title=" " alt="" coords="263,55,459,80"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Enemy.html#a277138a098d8f4bc750cacb47b11f551" title=" " alt="" coords="276,104,447,129"/>
+<area shape="rect" id="node5" href="$classDungeon_1_1Enemy.html#ae72f532336242299683a49b7706d0f29" title=" " alt="" coords="265,153,457,179"/>
+<area shape="rect" id="node6" href="$classDungeon_1_1Enemy.html#a0020a02108fb37805b4e5190cba7f9ec" title=" " alt="" coords="270,203,453,228"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Dungeon::MapHandler::Draw" name="Dungeon::MapHandler::Draw">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,155,45"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1MapHandler.html#a1f95f8ec6b3cbade64d37a09d9eebcac" title=" " alt="" coords="203,5,352,45"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1MapHandler.html#a05f2c6ff536f35a1af91cd32ec3511f5" title=" " alt="" coords="400,5,561,45"/>
+</map>

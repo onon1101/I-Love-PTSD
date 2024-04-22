@@ -1,0 +1,4 @@
+<map id="Dungeon::Map::LoadLevel" name="Dungeon::Map::LoadLevel">
+<area shape="rect" id="node1" title=" " alt="" coords="188,5,359,31"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Map.html#ac226775ef106e5a76c8b565b3ecd20bd" title=" " alt="" coords="5,5,140,31"/>
+</map>

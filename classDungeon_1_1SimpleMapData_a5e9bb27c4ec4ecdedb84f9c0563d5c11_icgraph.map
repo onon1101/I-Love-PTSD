@@ -1,0 +1,5 @@
+<map id="Dungeon::SimpleMapData::IsWalkable" name="Dungeon::SimpleMapData::IsWalkable">
+<area shape="rect" id="node1" title=" " alt="" coords="224,37,395,77"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1SimpleMapData.html#a07a59a3731925046344db48f85d52e68" title=" " alt="" coords="5,5,176,45"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1SimpleMapData.html#a5d4ec38277a750396a55a0a620c3e833" title=" " alt="" coords="5,69,176,109"/>
+</map>

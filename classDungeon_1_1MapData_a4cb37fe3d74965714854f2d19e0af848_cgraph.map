@@ -1,0 +1,6 @@
+<map id="Dungeon::MapData::EnemyCompare" name="Dungeon::MapData::EnemyCompare">
+<area shape="rect" id="node1" title=" " alt="" coords="5,45,233,70"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1SimpleMapData.html#a96a59cc7dbb7d7dc2a1373409e12ca78" title=" " alt="" coords="281,5,452,45"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1SimpleMapData.html#ac4eff3a61b3e9c672159d986271b57d6" title=" " alt="" coords="281,69,452,109"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1AStar.html#ae0a3144cf4411d1a620038d2b9c97546" title=" " alt="" coords="500,77,671,102"/>
+</map>

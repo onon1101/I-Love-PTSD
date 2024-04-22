@@ -1,0 +1,6 @@
+<map id="Dungeon::Tile::SetIndex" name="Dungeon::Tile::SetIndex">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,163,56"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Tile.html#a73f876834ef2f437303223c8182fa581" title=" " alt="" coords="211,31,413,56"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Tile.html#aa946ce484055c4986ca32440f5595555" title=" " alt="" coords="477,5,658,31"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Tile.html#a380e567255afe5d322a3b431042e5962" title=" " alt="" coords="461,55,673,80"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Dungeon::Tiles::WireDoor" name="Dungeon::Tiles::WireDoor">
+<area shape="rect" id="node1" title=" " alt="" coords="15,768,185,837"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Tiles_1_1GeneralDoorFront.html" title=" " alt="" coords="5,592,195,720"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Tile.html" title=" " alt="" coords="21,93,179,544"/>
+<area shape="rect" id="node4" title=" " alt="" coords="37,5,163,45"/>
+</map>

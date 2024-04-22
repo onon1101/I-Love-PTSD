@@ -1,0 +1,5 @@
+<map id="Dungeon::SimpleMapData" name="Dungeon::SimpleMapData">
+<area shape="rect" id="node1" title=" " alt="" coords="5,211,192,456"/>
+<area shape="rect" id="node2" title=" " alt="" coords="33,108,165,148"/>
+<area shape="rect" id="node3" title=" " alt="" coords="73,5,124,45"/>
+</map>

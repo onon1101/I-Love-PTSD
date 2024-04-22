@@ -1,0 +1,13 @@
+<map id="Dungeon::Enemy::SetGamePosition" name="Dungeon::Enemy::SetGamePosition">
+<area shape="rect" id="node1" title=" " alt="" coords="693,173,920,198"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Enemies_1_1Bat.html#aada11d7b9d1fae21e44abb9fc732bc8f" title=" " alt="" coords="471,5,625,45"/>
+<area shape="rect" id="node5" href="$classDungeon_1_1Enemies_1_1BlueSlime.html#aded79db3f9ebce40a3557813f6e89be2" title=" " alt="" coords="451,69,645,109"/>
+<area shape="rect" id="node7" href="$classDungeon_1_1Enemies_1_1Ghost.html#abb11d2a7e454862d581885e932051b03" title=" " alt="" coords="463,133,633,173"/>
+<area shape="rect" id="node8" href="$classDungeon_1_1Enemies_1_1OrangeSlime.html#aa297f44aed0bcdd15e8aa07f8629935d" title=" " alt="" coords="459,197,637,237"/>
+<area shape="rect" id="node10" href="$classDungeon_1_1Enemies_1_1Skeleton.html#ac3917efef54ddaa37ca9f5021659cb6d" title=" " alt="" coords="455,261,641,301"/>
+<area shape="rect" id="node11" href="$classDungeon_1_1Enemies_1_1Zombie.html#a6630570925585aac2553bc92e088010a" title=" " alt="" coords="459,325,637,365"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Enemies_1_1Bat.html#aac4b8415697f4f5b01fe66b885575427" title=" " alt="" coords="228,5,383,45"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Enemies_1_1Bat.html#a43ce83413f87496552eb0c5998f1cf33" title=" " alt="" coords="5,5,160,45"/>
+<area shape="rect" id="node6" href="$classDungeon_1_1Enemies_1_1BlueSlime.html#a48365f0277f2c79c7dab31f90c740799" title=" " alt="" coords="208,69,403,109"/>
+<area shape="rect" id="node9" href="$classDungeon_1_1Enemies_1_1OrangeSlime.html#ad59ea106f3919154692d54f9fcd3557f" title=" " alt="" coords="217,197,394,237"/>
+</map>

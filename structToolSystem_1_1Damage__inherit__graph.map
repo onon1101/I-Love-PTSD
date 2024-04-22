@@ -1,0 +1,7 @@
+<map id="ToolSystem::Damage" name="ToolSystem::Damage">
+<area shape="rect" id="node1" title=" " alt="" coords="245,5,395,148"/>
+<area shape="rect" id="node2" href="$structToolSystem_1_1TBaseWeapon.html" title=" " alt="" coords="227,196,413,251"/>
+<area shape="rect" id="node3" href="$classToolSystem_1_1EntityBroadsword.html" title=" " alt="" coords="5,299,208,368"/>
+<area shape="rect" id="node4" href="$classToolSystem_1_1EntityDagger.html" title=" " alt="" coords="233,306,407,361"/>
+<area shape="rect" id="node5" href="$classToolSystem_1_1EntityRapier.html" title=" " alt="" coords="432,306,603,361"/>
+</map>

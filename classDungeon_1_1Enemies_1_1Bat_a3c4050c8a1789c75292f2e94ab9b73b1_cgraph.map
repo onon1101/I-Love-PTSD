@@ -1,0 +1,7 @@
+<map id="Dungeon::Enemies::Bat::Bat" name="Dungeon::Enemies::Bat::Bat">
+<area shape="rect" id="node1" title=" " alt="" coords="5,80,187,105"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Enemy.html#a5bd4d4293c42442d3193c2118bdf1e72" title=" " alt="" coords="235,5,461,31"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Enemy.html#a277138a098d8f4bc750cacb47b11f551" title=" " alt="" coords="263,55,433,80"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Enemy.html#ae72f532336242299683a49b7706d0f29" title=" " alt="" coords="252,104,444,129"/>
+<area shape="rect" id="node5" href="$classDungeon_1_1Enemy.html#a0020a02108fb37805b4e5190cba7f9ec" title=" " alt="" coords="257,153,439,179"/>
+</map>

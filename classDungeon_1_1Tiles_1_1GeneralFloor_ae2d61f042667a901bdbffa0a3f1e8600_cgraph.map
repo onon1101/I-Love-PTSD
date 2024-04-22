@@ -1,0 +1,6 @@
+<map id="Dungeon::Tiles::GeneralFloor::GeneralFloor" name="Dungeon::Tiles::GeneralFloor::GeneralFloor">
+<area shape="rect" id="node1" title=" " alt="" coords="5,23,192,63"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Tile.html#a73f876834ef2f437303223c8182fa581" title=" " alt="" coords="240,31,443,56"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Tile.html#aa946ce484055c4986ca32440f5595555" title=" " alt="" coords="506,5,687,31"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Tile.html#a380e567255afe5d322a3b431042e5962" title=" " alt="" coords="491,55,703,80"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Dungeon::Map::RemoveWall" name="Dungeon::Map::RemoveWall">
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,188,38"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1TileFactory.html#a9ed5c1ccf4f36dd422e7d0ec553a4562" title=" " alt="" coords="236,5,379,45"/>
+</map>

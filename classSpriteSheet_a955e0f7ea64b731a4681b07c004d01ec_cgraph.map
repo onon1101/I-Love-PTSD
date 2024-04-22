@@ -1,0 +1,4 @@
+<map id="SpriteSheet::Reset" name="SpriteSheet::Reset">
+<area shape="rect" id="node1" title="Reset the animation to its initial frame." alt="" coords="5,5,136,31"/>
+<area shape="rect" id="node2" href="$classSpriteSheet.html#a94511b0ee0eba269e5debd3999fdfd77" title="Set the current frame of the animation." alt="" coords="184,5,379,31"/>
+</map>

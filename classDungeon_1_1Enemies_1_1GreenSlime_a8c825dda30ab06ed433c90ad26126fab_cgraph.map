@@ -1,0 +1,8 @@
+<map id="Dungeon::Enemies::GreenSlime::Move" name="Dungeon::Enemies::GreenSlime::Move">
+<area shape="rect" id="node1" title=" " alt="" coords="5,47,208,87"/>
+<area shape="rect" id="node2" href="$classToolBoxs.html#a7e6d815e8c01245413e2623e55a3c93a" title=" " alt="" coords="282,5,457,31"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Enemy.html#a5bd4d4293c42442d3193c2118bdf1e72" title=" " alt="" coords="256,55,483,80"/>
+<area shape="rect" id="node4" href="$classAnimation.html#a9668117fb2995eccca9952c76467f81b" title=" " alt="" coords="288,104,451,129"/>
+<area shape="rect" id="node5" href="$classAnimation.html#a606e6f72f8dc6f5bb7436bfded6b9b53" title=" " alt="" coords="531,104,717,129"/>
+<area shape="rect" id="node6" href="$classToolBoxs.html#a376391aa1d03d0d6101c2ea2464d4246" title=" " alt="" coords="765,104,944,129"/>
+</map>

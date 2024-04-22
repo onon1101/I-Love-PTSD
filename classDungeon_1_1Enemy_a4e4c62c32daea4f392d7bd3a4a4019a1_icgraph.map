@@ -1,0 +1,8 @@
+<map id="Dungeon::Enemy::SetFace" name="Dungeon::Enemy::SetFace">
+<area shape="rect" id="node1" title=" " alt="" coords="467,109,640,134"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Enemies_1_1Ghost.html#a0c5e8253c5fbb60749e7d93185b48ecc" title=" " alt="" coords="240,5,411,45"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Enemies_1_1OrangeSlime.html#ad59ea106f3919154692d54f9fcd3557f" title=" " alt="" coords="237,69,414,109"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Enemies_1_1Skeleton.html#a9ead3d63800896216f6f932ec92f3cdb" title=" " alt="" coords="232,133,419,173"/>
+<area shape="rect" id="node5" href="$classDungeon_1_1Enemies_1_1Zombie.html#a3adf68bf458ee921b89bacd951e086f5" title=" " alt="" coords="236,197,415,237"/>
+<area shape="rect" id="node6" href="$classDungeon_1_1Enemies_1_1Zombie.html#a6630570925585aac2553bc92e088010a" title=" " alt="" coords="5,197,184,237"/>
+</map>

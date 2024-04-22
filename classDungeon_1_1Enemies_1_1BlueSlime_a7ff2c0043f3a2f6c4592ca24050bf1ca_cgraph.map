@@ -1,0 +1,6 @@
+<map id="Dungeon::Enemies::BlueSlime::AttackPlayer" name="Dungeon::Enemies::BlueSlime::AttackPlayer">
+<area shape="rect" id="node1" title=" " alt="" coords="5,30,200,70"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Enemy.html#a44a53ed54f741a477607eae0d2352b36" title=" " alt="" coords="248,12,447,37"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Enemy.html#af5cb6154fe75a36a2a2cc3b95ba9418a" title=" " alt="" coords="517,55,699,95"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Enemy.html#a5bd4d4293c42442d3193c2118bdf1e72" title=" " alt="" coords="495,5,721,31"/>
+</map>

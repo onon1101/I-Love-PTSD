@@ -1,0 +1,6 @@
+<map id="Dungeon::Enemies::GreenSlime" name="Dungeon::Enemies::GreenSlime">
+<area shape="rect" id="node1" title=" " alt="" coords="75,489,281,573"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Enemy.html" title=" " alt="" coords="5,93,156,441"/>
+<area shape="rect" id="node3" title=" " alt="" coords="18,5,143,45"/>
+<area shape="rect" id="node4" href="$classAnimation.html" title=" " alt="" coords="181,152,373,383"/>
+</map>

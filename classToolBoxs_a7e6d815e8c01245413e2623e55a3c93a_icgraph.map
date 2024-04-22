@@ -1,0 +1,15 @@
+<map id="ToolBoxs::GamePostoPos" name="ToolBoxs::GamePostoPos">
+<area shape="rect" id="node1" title=" " alt="" coords="701,223,876,249"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Enemies_1_1GreenSlime.html#a8c825dda30ab06ed433c90ad26126fab" title=" " alt="" coords="451,5,653,45"/>
+<area shape="rect" id="node3" href="$classPlayer.html#a7132efaef0c2f66a03b6f8cd451987ac" title=" " alt="" coords="469,70,635,95"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Enemies_1_1Bat.html#aada11d7b9d1fae21e44abb9fc732bc8f" title=" " alt="" coords="475,120,629,160"/>
+<area shape="rect" id="node7" href="$classDungeon_1_1Enemies_1_1BlueSlime.html#aded79db3f9ebce40a3557813f6e89be2" title=" " alt="" coords="455,184,649,224"/>
+<area shape="rect" id="node9" href="$classDungeon_1_1Enemies_1_1Ghost.html#abb11d2a7e454862d581885e932051b03" title=" " alt="" coords="467,248,637,288"/>
+<area shape="rect" id="node10" href="$classDungeon_1_1Enemies_1_1OrangeSlime.html#aa297f44aed0bcdd15e8aa07f8629935d" title=" " alt="" coords="463,312,641,352"/>
+<area shape="rect" id="node12" href="$classDungeon_1_1Enemies_1_1Skeleton.html#ac3917efef54ddaa37ca9f5021659cb6d" title=" " alt="" coords="459,376,645,416"/>
+<area shape="rect" id="node13" href="$classDungeon_1_1Enemies_1_1Zombie.html#a6630570925585aac2553bc92e088010a" title=" " alt="" coords="463,440,641,480"/>
+<area shape="rect" id="node5" href="$classDungeon_1_1Enemies_1_1Bat.html#aac4b8415697f4f5b01fe66b885575427" title=" " alt="" coords="228,120,383,160"/>
+<area shape="rect" id="node6" href="$classDungeon_1_1Enemies_1_1Bat.html#a43ce83413f87496552eb0c5998f1cf33" title=" " alt="" coords="5,120,160,160"/>
+<area shape="rect" id="node8" href="$classDungeon_1_1Enemies_1_1BlueSlime.html#a48365f0277f2c79c7dab31f90c740799" title=" " alt="" coords="208,184,403,224"/>
+<area shape="rect" id="node11" href="$classDungeon_1_1Enemies_1_1OrangeSlime.html#ad59ea106f3919154692d54f9fcd3557f" title=" " alt="" coords="217,312,394,352"/>
+</map>

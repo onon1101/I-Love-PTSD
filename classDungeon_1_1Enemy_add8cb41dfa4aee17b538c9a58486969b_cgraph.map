@@ -1,0 +1,5 @@
+<map id="Dungeon::Enemy::TempoMove" name="Dungeon::Enemy::TempoMove">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,201,56"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Enemy.html#a4399c26560a4d6ed08dfc2fee00a67fe" title=" " alt="" coords="249,5,433,31"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Enemy.html#a4f4352fbff7eac22425ee977b00dab23" title=" " alt="" coords="263,55,419,80"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="Dungeon::SimpleMapData::IsPositionInteractive" name="Dungeon::SimpleMapData::IsPositionInteractive">
+<area shape="rect" id="node1" title=" " alt="" coords="5,260,176,300"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1SimpleMapData.html#a2594bf2030ffd1cf8c8f6f61428a55a6" title=" " alt="" coords="443,10,616,50"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1SimpleMapData.html#a9ca44f066cfba0722e1f90333c67b853" title=" " alt="" coords="224,260,395,300"/>
+<area shape="rect" id="node5" href="$classDungeon_1_1SimpleMapData.html#a2ba6c861ff740d5b3a77a51b86ea0a00" title=" " alt="" coords="224,324,395,364"/>
+<area shape="rect" id="node6" href="$classDungeon_1_1SimpleMapData.html#a0665a0ddd7615cb5cc4d2d70726328e4" title=" " alt="" coords="224,388,395,428"/>
+<area shape="rect" id="node7" href="$classDungeon_1_1SimpleMapData.html#a9de4669bc363c06a782f4836b9dfe545" title=" " alt="" coords="224,145,395,185"/>
+<area shape="rect" id="node9" href="$classDungeon_1_1SimpleMapData.html#ac6fd1df2cee7145de5cc76ad6214a195" title=" " alt="" coords="444,74,615,114"/>
+<area shape="rect" id="node11" href="$classDungeon_1_1SimpleMapData.html#a0222cf4d1f93d6038a58364b7623e753" title=" " alt="" coords="444,202,615,242"/>
+<area shape="rect" id="node12" href="$classDungeon_1_1SimpleMapData.html#afca6a82b00b7e4140c8f04f4c2e3c63f" title=" " alt="" coords="224,452,395,492"/>
+<area shape="rect" id="node13" href="$classDungeon_1_1SimpleMapData.html#a5c063183087142beda086f482cf6ca5f" title=" " alt="" coords="224,516,395,556"/>
+<area shape="rect" id="node14" href="$classDungeon_1_1SimpleMapData.html#aab6b7b59538da0016163a1e1417c75a7" title=" " alt="" coords="224,580,395,620"/>
+<area shape="rect" id="node15" href="$classDungeon_1_1SimpleMapData.html#a8b7d6c416118a39918ea9915a852dda9" title=" " alt="" coords="224,81,395,121"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1SimpleMapData.html#aa1c7ad8b82fb2a4e107b2938b2edd5e6" title=" " alt="" coords="664,10,835,50"/>
+<area shape="rect" id="node8" href="$classDungeon_1_1SimpleMapData.html#af06f1d6c3f4e51714bd210df0241a098" title=" " alt="" coords="444,138,615,178"/>
+<area shape="rect" id="node10" href="$classDungeon_1_1SimpleMapData.html#aa7bb57fa91d8fb8301f92cf663b7c58a" title=" " alt="" coords="664,74,835,114"/>
+</map>

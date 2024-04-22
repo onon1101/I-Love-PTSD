@@ -1,0 +1,5 @@
+<map id="Dungeon::MiniMap::Update" name="Dungeon::MiniMap::Update">
+<area shape="rect" id="node1" title=" " alt="" coords="240,31,416,56"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1MiniMap.html#a427497f30ed3a87c69e83dd96b3e28e0" title=" " alt="" coords="7,5,190,31"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1MiniMap.html#af8b42bf55035edc19afa23aec0a4fe79" title=" " alt="" coords="5,55,192,80"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="Dungeon::AStar::Heuristic" name="Dungeon::AStar::Heuristic">
+<area shape="rect" id="node1" title=" " alt="" coords="745,198,916,223"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1AStar.html#a0914e98c1352be4adfe473feeb512fcd" title=" " alt="" coords="527,109,697,134"/>
+<area shape="rect" id="node6" href="$classDungeon_1_1Enemies_1_1Ghost.html#a0c5e8253c5fbb60749e7d93185b48ecc" title=" " alt="" coords="19,127,189,167"/>
+<area shape="rect" id="node8" href="$classDungeon_1_1SimpleMapData.html#ac4eff3a61b3e9c672159d986271b57d6" title=" " alt="" coords="527,248,697,288"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Enemy.html#a9b0be58270a6d87d3ded0d9dac78fb59" title=" " alt="" coords="277,5,453,45"/>
+<area shape="rect" id="node5" href="$classDungeon_1_1Enemies_1_1Ghost.html#ad2936c704d8dd86233db7ab0739782b8" title=" " alt="" coords="279,69,450,109"/>
+<area shape="rect" id="node7" href="$classDungeon_1_1Enemies_1_1Ghost.html#a47318abe745ff72ed37328022dde75f5" title=" " alt="" coords="279,133,450,173"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Enemies_1_1Skeleton.html#a9ead3d63800896216f6f932ec92f3cdb" title=" " alt="" coords="11,5,197,45"/>
+<area shape="rect" id="node9" href="$classDungeon_1_1MapData.html#a4cb37fe3d74965714854f2d19e0af848" title=" " alt="" coords="251,255,479,281"/>
+<area shape="rect" id="node10" href="$classDungeon_1_1MapData.html#a3c547a4cf0a6d765e9a8465b9fd08c29" title=" " alt="" coords="5,248,203,288"/>
+</map>

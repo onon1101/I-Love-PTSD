@@ -1,0 +1,10 @@
+<map id="ToolBoxs::CountImagePixel" name="ToolBoxs::CountImagePixel">
+<area shape="rect" id="node1" title=" " alt="" coords="415,129,595,155"/>
+<area shape="rect" id="node2" href="$classMusic_1_1BeatHeart.html#ae6ceaed3624b49040cdf1623843c0497" title=" " alt="" coords="180,5,367,31"/>
+<area shape="rect" id="node3" href="$classBomb.html#a5805401b6cfbb451cf31ebd4851740cf" title=" " alt="" coords="225,55,321,80"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Tile.html#a0a5a94d63dbedbf391dd94b1954944a2" title=" " alt="" coords="197,104,350,129"/>
+<area shape="rect" id="node6" href="$classPlayer.html#ae18b01ce254f959cd3435e60d0294018" title=" " alt="" coords="199,153,348,179"/>
+<area shape="rect" id="node7" href="$classPlayer.html#a2e68902b34385fda6e49ba924e291347" title=" " alt="" coords="198,203,349,228"/>
+<area shape="rect" id="node8" href="$classThrow.html#a6d9a4d5f1d1025760f5aefd1846307d7" title=" " alt="" coords="223,252,323,277"/>
+<area shape="rect" id="node5" href="$classDungeon_1_1Tile.html#afa29488bc9e7a925ac6bc4f42838b30c" title=" " alt="" coords="5,104,132,129"/>
+</map>

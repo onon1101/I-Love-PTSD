@@ -1,0 +1,4 @@
+<map id="Dungeon::MiniMap::MiniMap" name="Dungeon::MiniMap::MiniMap">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,188,31"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1MiniMap.html#a675d5eca2a5663180c62614aed17e2c2" title=" " alt="" coords="236,5,412,31"/>
+</map>

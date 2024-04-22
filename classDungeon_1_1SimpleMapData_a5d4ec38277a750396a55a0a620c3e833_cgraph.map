@@ -1,0 +1,10 @@
+<map id="Dungeon::SimpleMapData::IsPositionWalkable" name="Dungeon::SimpleMapData::IsPositionWalkable">
+<area shape="rect" id="node1" title=" " alt="" coords="5,69,176,109"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1SimpleMapData.html#a2594bf2030ffd1cf8c8f6f61428a55a6" title=" " alt="" coords="224,5,397,45"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1SimpleMapData.html#ac6fd1df2cee7145de5cc76ad6214a195" title=" " alt="" coords="225,69,396,109"/>
+<area shape="rect" id="node6" href="$classDungeon_1_1SimpleMapData.html#a5e9bb27c4ec4ecdedb84f9c0563d5c11" title=" " alt="" coords="225,133,396,173"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1SimpleMapData.html#aa1c7ad8b82fb2a4e107b2938b2edd5e6" title=" " alt="" coords="445,5,616,45"/>
+<area shape="rect" id="node5" href="$classDungeon_1_1SimpleMapData.html#aa7bb57fa91d8fb8301f92cf663b7c58a" title=" " alt="" coords="445,69,616,109"/>
+<area shape="rect" id="node7" href="$classDungeon_1_1SimpleMapData.html#af06f1d6c3f4e51714bd210df0241a098" title=" " alt="" coords="445,133,616,173"/>
+<area shape="rect" id="node8" href="$classDungeon_1_1SimpleMapData.html#a0222cf4d1f93d6038a58364b7623e753" title=" " alt="" coords="445,197,616,237"/>
+</map>

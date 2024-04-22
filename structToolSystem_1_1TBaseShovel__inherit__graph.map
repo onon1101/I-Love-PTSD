@@ -1,0 +1,6 @@
+<map id="ToolSystem::TBaseShovel" name="ToolSystem::TBaseShovel">
+<area shape="rect" id="node1" title=" " alt="" coords="79,137,257,192"/>
+<area shape="rect" id="node4" href="$classToolSystem_1_1EntityShovel.html" title=" " alt="" coords="81,240,255,309"/>
+<area shape="rect" id="node2" href="$structToolSystem_1_1DigLevel.html" title=" " alt="" coords="5,13,157,82"/>
+<area shape="rect" id="node3" href="$structToolSystem_1_1Settings.html" title=" " alt="" coords="181,5,331,89"/>
+</map>

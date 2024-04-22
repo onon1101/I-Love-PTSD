@@ -1,0 +1,6 @@
+<map id="ToolSystem::EntityDagger" name="ToolSystem::EntityDagger">
+<area shape="rect" id="node1" title=" " alt="" coords="79,299,254,353"/>
+<area shape="rect" id="node2" href="$structToolSystem_1_1TBaseWeapon.html" title=" " alt="" coords="73,196,260,251"/>
+<area shape="rect" id="node3" href="$structToolSystem_1_1Damage.html" title=" " alt="" coords="5,5,155,148"/>
+<area shape="rect" id="node4" href="$structToolSystem_1_1Settings.html" title=" " alt="" coords="179,35,328,119"/>
+</map>

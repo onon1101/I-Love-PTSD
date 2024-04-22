@@ -1,0 +1,6 @@
+<map id="Dungeon::Enemies::OrangeSlime::AttackPlayer" name="Dungeon::Enemies::OrangeSlime::AttackPlayer">
+<area shape="rect" id="node1" title=" " alt="" coords="5,30,183,70"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Enemy.html#a44a53ed54f741a477607eae0d2352b36" title=" " alt="" coords="231,12,429,37"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Enemy.html#af5cb6154fe75a36a2a2cc3b95ba9418a" title=" " alt="" coords="500,55,681,95"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Enemy.html#a5bd4d4293c42442d3193c2118bdf1e72" title=" " alt="" coords="477,5,704,31"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Dungeon::Tile::SetCloseDisplayB24" name="Dungeon::Tile::SetCloseDisplayB24">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,229,56"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Tile.html#aa43fa59caaba34f268f0b360e444b42f" title=" " alt="" coords="307,5,450,31"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Tile.html#a73f876834ef2f437303223c8182fa581" title=" " alt="" coords="277,55,480,80"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Tile.html#aa946ce484055c4986ca32440f5595555" title=" " alt="" coords="543,29,725,55"/>
+<area shape="rect" id="node5" href="$classDungeon_1_1Tile.html#a380e567255afe5d322a3b431042e5962" title=" " alt="" coords="528,79,740,104"/>
+</map>

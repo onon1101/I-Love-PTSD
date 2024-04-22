@@ -1,0 +1,8 @@
+<map id="Dungeon::Enemy::GamePostion2MapIndex" name="Dungeon::Enemy::GamePostion2MapIndex">
+<area shape="rect" id="node1" title=" " alt="" coords="248,133,459,173"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Enemies_1_1BlueSlime.html#a48365f0277f2c79c7dab31f90c740799" title=" " alt="" coords="5,5,200,45"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Enemies_1_1Ghost.html#a0c5e8253c5fbb60749e7d93185b48ecc" title=" " alt="" coords="17,69,188,109"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Enemies_1_1OrangeSlime.html#ad59ea106f3919154692d54f9fcd3557f" title=" " alt="" coords="14,133,191,173"/>
+<area shape="rect" id="node5" href="$classDungeon_1_1Enemies_1_1Skeleton.html#a9ead3d63800896216f6f932ec92f3cdb" title=" " alt="" coords="9,197,196,237"/>
+<area shape="rect" id="node6" href="$classDungeon_1_1Enemies_1_1Zombie.html#a75e8a8987a04409bc831043afa1f1743" title=" " alt="" coords="13,261,192,301"/>
+</map>

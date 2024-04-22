@@ -1,0 +1,12 @@
+<map id="Animation" name="Animation">
+<area shape="rect" id="node1" title=" " alt="" coords="778,5,970,236"/>
+<area shape="rect" id="node2" href="$classCoin.html" title=" " alt="" coords="5,306,143,463"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Enemies_1_1Bat.html" title=" " alt="" coords="167,313,325,456"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Enemies_1_1BlueSlime.html" title=" " alt="" coords="349,335,548,434"/>
+<area shape="rect" id="node5" href="$classDungeon_1_1Enemies_1_1Ghost.html" title=" " alt="" coords="572,313,747,456"/>
+<area shape="rect" id="node6" href="$classDungeon_1_1Enemies_1_1GreenSlime.html" title=" " alt="" coords="771,343,977,427"/>
+<area shape="rect" id="node7" href="$classDungeon_1_1Enemies_1_1OrangeSlime.html" title=" " alt="" coords="1002,328,1183,441"/>
+<area shape="rect" id="node8" href="$classDungeon_1_1Enemies_1_1Skeleton.html" title=" " alt="" coords="1208,335,1399,434"/>
+<area shape="rect" id="node9" href="$classDungeon_1_1Enemies_1_1Zombie.html" title=" " alt="" coords="1423,335,1605,434"/>
+<area shape="rect" id="node10" href="$classPlayer.html" title=" " alt="" coords="1630,284,1785,485"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Dungeon::Enemies::Ghost::AttackPlayer" name="Dungeon::Enemies::Ghost::AttackPlayer">
+<area shape="rect" id="node1" title=" " alt="" coords="5,37,176,77"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Enemy.html#a44a53ed54f741a477607eae0d2352b36" title=" " alt="" coords="224,44,423,69"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1Enemy.html#a5bd4d4293c42442d3193c2118bdf1e72" title=" " alt="" coords="471,5,697,31"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1Enemy.html#af5cb6154fe75a36a2a2cc3b95ba9418a" title=" " alt="" coords="493,66,675,106"/>
+</map>

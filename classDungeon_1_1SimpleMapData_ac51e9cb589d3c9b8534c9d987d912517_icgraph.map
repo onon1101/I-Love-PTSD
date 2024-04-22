@@ -1,0 +1,7 @@
+<map id="Dungeon::SimpleMapData::GetSize" name="Dungeon::SimpleMapData::GetSize">
+<area shape="rect" id="node1" title=" " alt="" coords="271,85,441,125"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1MapData.html#aa4da08477104c489c6b43516fca11bfb" title=" " alt="" coords="5,5,223,31"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1SimpleMapData.html#ae95fc88b3e9d1a78dd777561ae164ea6" title=" " alt="" coords="29,55,199,95"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1MapData.html#a5c461cac59ae60f3415f84e7ffc2871b" title=" " alt="" coords="19,120,209,145"/>
+<area shape="rect" id="node5" href="$classDungeon_1_1SimpleMapData.html#a7be2ad0998a5d5fa2dabc35ce6ee0387" title=" " alt="" coords="29,170,199,210"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Dungeon::s_Trap" name="Dungeon::s_Trap">
+<area shape="rect" id="node1" title=" " alt="" coords="5,123,128,163"/>
+<area shape="rect" id="node2" title=" " alt="" coords="9,5,49,45"/>
+<area shape="rect" id="node3" title=" " alt="" coords="74,5,134,45"/>
+</map>

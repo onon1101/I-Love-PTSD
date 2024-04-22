@@ -1,0 +1,10 @@
+<map id="Dungeon::SimpleMapData::GetLevelIndexMin" name="Dungeon::SimpleMapData::GetLevelIndexMin">
+<area shape="rect" id="node1" title=" " alt="" coords="883,88,1053,128"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1SimpleMapData.html#a2594bf2030ffd1cf8c8f6f61428a55a6" title=" " alt="" coords="661,56,835,96"/>
+<area shape="rect" id="node8" href="$classDungeon_1_1SimpleMapData.html#ac6fd1df2cee7145de5cc76ad6214a195" title=" " alt="" coords="663,120,833,160"/>
+<area shape="rect" id="node3" href="$classDungeon_1_1SimpleMapData.html#a9de4669bc363c06a782f4836b9dfe545" title=" " alt="" coords="443,120,613,160"/>
+<area shape="rect" id="node4" href="$classDungeon_1_1SimpleMapData.html#a5fe6a6bb424b5528c1e3f95a3c2ed8c8" title=" " alt="" coords="224,120,395,160"/>
+<area shape="rect" id="node5" href="$classDungeon_1_1SimpleMapData.html#a07a59a3731925046344db48f85d52e68" title=" " alt="" coords="5,35,176,75"/>
+<area shape="rect" id="node6" href="$classDungeon_1_1SimpleMapData.html#a5d4ec38277a750396a55a0a620c3e833" title=" " alt="" coords="443,56,613,96"/>
+<area shape="rect" id="node7" href="$classDungeon_1_1SimpleMapData.html#a8b7d6c416118a39918ea9915a852dda9" title=" " alt="" coords="443,184,613,224"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Dungeon::Map::OpenDoor" name="Dungeon::Map::OpenDoor">
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,173,38"/>
+<area shape="rect" id="node2" href="$classDungeon_1_1Map.html#ab7d42be1f67b88241389f6e626c4dd48" title=" " alt="" coords="221,5,417,45"/>
+</map>
