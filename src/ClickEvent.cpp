@@ -46,8 +46,9 @@ void App::ClickEvent() {
      */
     m_EventHandler.AddEvent(
         [this]() {
-            LOG_DEBUG(m_DungeonMap->GetMapData()->IsBossDead());
-            m_sa->Play();
+//            LOG_DEBUG(m_DungeonMap->GetMapData()->IsBossDead());
+//            m_sa->Play();
+            m_MainCharacter->PlayAnimation();
             // const auto& m_Drawable = std::make_shared<SpriteSheet>(
             //     Players::Config::IMAGE_SWIPE_ARROW.data(),
             //     glm::vec2{36, 24},
@@ -358,5 +359,5 @@ void App::ClickEvent() {
         Util::Keycode::A
     );
 
-    //    m_EventHandler.AddEvent({Util::Keycode::W}, ThrowWeapon);
+//        m_EventHandler.AddEvent({Util::Keycode::W}, ThrowWeapon);
 };

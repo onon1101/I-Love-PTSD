@@ -18,27 +18,24 @@ Game::Warehouse::SwipeArrow::SwipeArrow() {
     SetDrawable(m_Drawable);
     SetZIndex(Players::Config::VAL_ZINDEX);
     SetScale(Players::Config::VAL_SCALE);
-    SetVisible(true);
+//    SetVisible(true);
 }
 
 namespace Game::Warehouse {
 void SwipeArrow::Play() {
     m_StartPlayTime = Util::Time::GetElapsedTimeMs();
     m_CurrPlayTime = Util::Time::GetElapsedTimeMs();
+    LOG_DEBUG("play");
 
     SetVisible(true);
     m_Drawable->SetCurrentFrame(0);
     m_Drawable->Play();
 }
 void SwipeArrow::Update() {
-    LOG_INFO(
-        "time {} {}",
-        Util::Time::GetElapsedTimeMs(),
-        Util::Time::GetDeltaTimeMs()
-    );
 
     m_CurrPlayTime += Util::Time::GetDeltaTimeMs();
     if (m_Drawable && m_StartPlayTime + 400 <= m_CurrPlayTime) {
+        LOG_DEBUG("test {}", m_StartPlayTime);
         SetVisible(false);
         m_Drawable->Pause();
     }

@@ -106,6 +106,10 @@ void Player::SetFaceTo(Direction direction) {
     m_Head->SetScale({-DUNGEON_SCALE, DUNGEON_SCALE});
 }
 
+void Player::PlayAnimation() {
+    m_SwipeModule->PlayAnimation(0);
+}
+
 void Player::Update() {
     m_Animation->UpdateAnimation(true);
     if (m_Animation->IsAnimating()) {
@@ -141,6 +145,7 @@ std::shared_ptr<GameElement> Player::GetWindowElement() {
     m_Window->AddChild(m_Heart->GetGameObject());
     m_Window->AddChild(m_Diamond->GetGameObject());
     m_Window->AddChild(m_Tool->GetGameObject());
+    m_Window->AddChild(m_SwipeModule->GetGameObject());
     m_Window->SetVisible(false);
     return m_Window;
 }

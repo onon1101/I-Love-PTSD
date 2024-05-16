@@ -9,7 +9,7 @@ namespace Game::Factory {
 
 class SwipeFactor final {
 public:
-    explicit SwipeFactor();
+    explicit SwipeFactor() = default;
 
     std::shared_ptr<Warehouse::Swipe> MakeSwipe(const std::string& type);
 

@@ -66,6 +66,7 @@ public:
     void useDefaultSettingsTool();
 
     // update
+    void PlayAnimation();
     void Update();
 
     // some unused functional
