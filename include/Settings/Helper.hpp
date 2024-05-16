@@ -12,10 +12,13 @@
 
 #include "Dungeon/Map.h"
 #include "Game/Player.h"
+#include "Player.h"
+#include "Player_config.h"
+
 namespace Settings {
 class Helper {
 public:
-    static void Init(Dungeon::Map* dungeonMap);
+    static void Init(Dungeon::Map* dungeonMap, Player *player);
 
     static std::size_t GamePosToMapIdx(glm::ivec2 gamePos);
 
@@ -33,8 +36,14 @@ public:
         std::size_t        heightNumber
     );
 
+    static Players::Config::Direction DirectConvert(Player::Direction direct);
+    static Player::Direction DirectConvert(Players::Config::Direction direct);
+
+    static glm::ivec2 DistancePlayer2Wall(Players::Config::Direction direction);
+
 private:
     static Dungeon::Map* m_DungeonMap;
+    static Player* m_Player;
 };
 }  // namespace Settings
 

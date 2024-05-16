@@ -4,8 +4,9 @@
 
 #include "Helper.hpp"
 
-void Settings::Helper::Init(Dungeon::Map* dungeonMap) {
+void Settings::Helper::Init(Dungeon::Map* dungeonMap, Player *player) {
     m_DungeonMap = dungeonMap;
+    m_Player = player;
 }
 
 std::size_t Settings::Helper::GamePosToMapIdx(glm::ivec2 gamePos) {
@@ -47,4 +48,40 @@ glm::vec2 Settings::Helper::CountImgPixel(
 
     return result;
 }
+
+Players::Config::Direction Settings::Helper::DirectConvert(Player::Direction direct){
+    switch(direct) {
+    case Player::RIGHT: return Players::Config::Direction::RIGHT;
+    case Player::LEFT: return Players::Config::Direction::LEFT;
+    case Player::DOWN: return Players::Config::Direction::DOWN;
+    case Player::UP: return Players::Config::Direction::UP;
+    default: throw std::runtime_error("type convert error");
+        }
+}
+
+Player::Direction Settings::Helper::DirectConvert(Players::Config::Direction direct){
+        switch(direct) {
+        case Players::Config::Direction::RIGHT: return Player::RIGHT;
+        case Players::Config::Direction::LEFT: return Player::LEFT;
+        case Players::Config::Direction::DOWN: return Player::DOWN;
+        case Players::Config::Direction::UP: return Player::UP;
+        default: throw std::runtime_error("type convert error");
+        }
+}
+
+glm::ivec2 Settings::Helper::DistancePlayer2Wall(Players::Config::Direction direction) {
+    const auto &&playerPos = m_DungeonMap->GetMapData()->GetPlayerPosition();
+    const auto&& directionGP = Settings::Helper::Direct2MI(DirectConvert(direction));
+
+    std::size_t posMi = 0;
+    auto&& posGP = static_cast<glm::ivec2> (playerPos);
+
+    while(!m_DungeonMap->GetMapData()->IsPositionWall(posGP + directionGP)) {
+        posGP += directionGP;
+    }
+    return posGP;
+}
+
+
 Dungeon::Map* Settings::Helper::m_DungeonMap = nullptr;
+Player* Settings::Helper::m_Player = nullptr;

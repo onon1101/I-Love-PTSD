@@ -5,6 +5,8 @@
 #include "Core/Drawable.hpp"
 #include "SpriteSheet.hpp"
 #include "Warehouse/Swipe.h"
+#include "Player_config.h"
+
 namespace Game::Warehouse {
 class SwipeArrow final : public Swipe {
 public:
@@ -12,6 +14,7 @@ public:
     virtual ~SwipeArrow() = default;
 
     void Play(const glm::ivec2& player2ThrowPos, std::pair<int, int> direct) override;
+    void Play(const glm::ivec2& pos, Players::Config::Direction direction);
 
     void Update() override;
 

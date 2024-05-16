@@ -98,7 +98,7 @@ void App::initializeGame() {
     // m_Camera->AddUIChild(Display::BeatIndicator::GetGameElement());
 
     // helper
-    Settings::Helper::Init(m_DungeonMap.get());
+    Settings::Helper::Init(m_DungeonMap.get(), m_MainCharacter.get());
 
     // add tools throw system
     Game::System::Init(m_DungeonMap.get());

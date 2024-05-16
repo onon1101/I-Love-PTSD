@@ -46,7 +46,28 @@ void App::ClickEvent() {
      */
     m_EventHandler.AddEvent(
         [this]() {
-            m_MainCharacter->PlayAnimation();
+            const auto [playerGP, playerMI] = Settings::Helper::GetPlayerPosDM();
+            glm::ivec2        weaponNextPos = static_cast<glm::ivec2>(playerGP);
+
+            std::size_t weaponEndMI = 0;
+            const auto& mapdata = m_DungeonMap->GetMapData();
+            while (true) {
+                weaponEndMI = Settings::Helper::GamePosToMapIdx(weaponNextPos);
+                if (m_DungeonMap->GetMapData()->IsPositionWall(
+                        weaponNextPos + glm::ivec2{1, 0}
+                    )) {
+                    break;
+                }
+
+                // DOTO:
+                if (mapdata->IsEnemyEmpty(weaponEndMI)) {
+                    m_DungeonMap->RemoveEnemy(weaponEndMI);
+                };
+
+                weaponNextPos += glm::ivec2{1, 0};
+            }
+            LOG_DEBUG(Settings::Helper::DistancePlayer2Wall(Players::Config::Direction::RIGHT));
+            LOG_DEBUG("{} {}", weaponNextPos,static_cast<glm::ivec2>(m_MainCharacter->GetGamePosition()));
             },
         Util::Keycode::T
     );
