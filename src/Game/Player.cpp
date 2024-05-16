@@ -1,4 +1,5 @@
 #include "Player.h"
+#include <memory>
 
 Player::Player()
     : m_Body(std::make_shared<GameElement>()),
@@ -8,9 +9,11 @@ Player::Player()
       m_Heart(std::make_unique<Heart>()),
       m_Tool(std::make_shared<Players::Tools>()),
       m_Diamond(std::make_unique<Diamond>()),
+      m_SwipeModule(std::make_unique<Game::Warehouse::SwipeModule>()),
       m_Window(std::make_shared<GameElement>()) {
     // init Animation
     m_Animation = std::make_unique<Animation>(m_Position);
+    m_SwipeModule->AddSwipe("Arrow");
 
     Update();
 }
@@ -110,6 +113,7 @@ void Player::Update() {
     }
     SetZIndex(m_Animation->GetAnimationZIndex());
     SetPosition(m_Position);
+    m_SwipeModule->Update();
 }
 
 void Player::SetPosition(const glm::vec2& position) {
