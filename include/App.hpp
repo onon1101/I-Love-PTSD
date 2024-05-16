@@ -16,6 +16,7 @@
 #include "Player.h"
 #include "Settings/Background.hpp"
 #include "Settings/Camera.h"
+#include "Warehouse/SwipeArrow.h"
 #include "pch.hpp"  // IWYU pragma: export
 
 class App {
@@ -55,9 +56,10 @@ private:
     void ValidTask();
 
 private:
-    std::shared_ptr<Background> m_Background;
-    bool                        m_FirstTime = true;
-    bool                        m_IsMainMenu = true;
+    std::shared_ptr<Game::Warehouse::SwipeArrow> m_sa;
+    std::shared_ptr<Background>                  m_Background;
+    bool                                         m_FirstTime = true;
+    bool                                         m_IsMainMenu = true;
 
     State m_CurrentState = State::START;
 

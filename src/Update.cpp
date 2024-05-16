@@ -54,6 +54,7 @@ void App::Update() {
     Music::IndicatorBar::Update();
     Music::Tempo::Update(Update::musicTime(), 0u, Music::Player::LoopCounter());
 
+    m_sa->Update();
     m_MainCharacter->Update();
     m_Camera->Update();
 }

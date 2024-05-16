@@ -10,7 +10,7 @@
 
 class IEquip : public Util::GameElement {
 public:
-    enum Pos { COL = 0, ROW };
+    enum Pos { COL = 0, ROW, NONE };
 
     virtual Pos GetWinPos() const = 0;
 

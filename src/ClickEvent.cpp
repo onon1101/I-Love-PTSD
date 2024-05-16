@@ -2,10 +2,15 @@
 // Created by adven on 2024/5/10.
 //
 
+#include <memory>
 #include <typeinfo>
 #include "App.hpp"
 
+#include "Player_config.h"
+#include "SpriteSheet.hpp"
+#include "UGameElement.h"
 #include "Util/Logger.hpp"
+#include "Warehouse/SwipeArrow.h"
 #include "eventpp/utilities/argumentadapter.h"
 #include "eventpp/utilities/conditionalfunctor.h"
 
@@ -40,7 +45,29 @@ void App::ClickEvent() {
      * @details Use to test functional.
      */
     m_EventHandler.AddEvent(
-        [this]() { LOG_DEBUG(m_DungeonMap->GetMapData()->IsBossDead()); },
+        [this]() {
+            LOG_DEBUG(m_DungeonMap->GetMapData()->IsBossDead());
+            m_sa->Play();
+            // const auto& m_Drawable = std::make_shared<SpriteSheet>(
+            //     Players::Config::IMAGE_SWIPE_ARROW.data(),
+            //     glm::vec2{36, 24},
+            //     std::vector<std::size_t>{0, 1, 2, 3},
+            //     true,
+            //     100,
+            //     true,
+            //     100
+            // );
+            // const auto& obj = std::make_shared<Util::GameElement>();
+            // obj->SetDrawable(m_Drawable);
+            // obj->SetZIndex(Players::Config::VAL_ZINDEX);
+            // obj->SetScale(Players::Config::VAL_SCALE);
+            // obj->SetVisible(true);
+            // m_Camera->AddUIChild(obj);
+
+            // const auto& image =
+            // std::make_shared<Game::Warehouse::SwipeArrow>();
+            // m_Camera->AddUIChild(image);
+        },
         Util::Keycode::T
     );
 
@@ -317,7 +344,10 @@ void App::ClickEvent() {
                 Music::Tempo::ReadTempoFile(m_TempoList.back().data());
                 m_MusicList.pop_back();
                 m_TempoList.pop_back();
-                m_DungeonMap->LoadLevel(m_DungeonMap->GetLevelNum() + 1, m_MainCharacter);
+                m_DungeonMap->LoadLevel(
+                    m_DungeonMap->GetLevelNum() + 1,
+                    m_MainCharacter
+                );
                 m_AniCameraDestination = {0, 0};
                 m_AniPlayerDestination = {0, 0};
             }

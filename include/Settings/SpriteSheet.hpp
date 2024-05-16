@@ -48,6 +48,17 @@ public:
         std::size_t                     cooldown
     );
 
+    SpriteSheet(
+        const std::string               filepath,
+        glm::vec2                       size,
+        const std::vector<std::size_t>& frames,
+        bool                            play,
+        std::size_t                     interval,
+        bool                            looping,
+        std::size_t                     cooldown,
+        bool                            finishVisible
+    );
+
     /**
      * @brief Get the interval between frames.
      * @return Interval between frames in milliseconds.
@@ -167,6 +178,8 @@ private:
     bool                     m_Looping;
     std::size_t              m_Cooldown;
     bool                     m_IsChangeFrame = false;
+
+    bool m_FinishVisible = false;
 
     unsigned long m_CooldownEndTime = 0;
     double        m_TimeBetweenFrameUpdate = 0;

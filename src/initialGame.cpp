@@ -122,4 +122,7 @@ void App::initializeGame() {
 
     const auto& coin = std::make_shared<Game::Graphs::Coin>(2);
     m_DungeonMap->AddItem(378, coin);
+
+    m_sa = std::make_shared<Game::Warehouse::SwipeArrow>();
+    m_Camera->AddUIChild(m_sa);
 }

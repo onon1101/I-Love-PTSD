@@ -55,6 +55,9 @@ static constexpr std::string_view IMAGE_FOOD_2 = ASSETS_DIR "/items/food_2.png";
 static constexpr std::string_view IMAGE_SLOT_ITEM = ASSETS_DIR
     "/gui/hud_slot_action1.png";
 
+static constexpr std::string_view IMAGE_SWIPE_ARROW = ASSETS_DIR
+    "/swipes/swipe_arrow.png";
+
 static constexpr glm::vec2 VAL_FONT_SCALE = {3, 3};
 
 static constexpr std::size_t VAL_FONT_SIZE = 6;
