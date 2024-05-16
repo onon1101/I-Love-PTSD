@@ -4,6 +4,7 @@
 #include "SpriteSheet.hpp"
 #include "Util/Logger.hpp"
 #include "Util/Time.hpp"
+#include <map>
 
 Game::Warehouse::SwipeArrow::SwipeArrow() {
     m_Drawable = std::make_shared<SpriteSheet>(
@@ -17,25 +18,32 @@ Game::Warehouse::SwipeArrow::SwipeArrow() {
     );
     SetDrawable(m_Drawable);
     SetZIndex(Players::Config::VAL_ZINDEX);
-    SetScale(Players::Config::VAL_SCALE);
+    SetScale({5, 3});
+    SetPosition({36 * 5 /2, 0});
 //    SetVisible(true);
 }
 
 namespace Game::Warehouse {
-void SwipeArrow::Play() {
+void SwipeArrow::Play(const glm::ivec2& player2ThrowPos, std::pair<int, int> direct) {
     m_StartPlayTime = Util::Time::GetElapsedTimeMs();
     m_CurrPlayTime = Util::Time::GetElapsedTimeMs();
-    LOG_DEBUG("play");
+
+    const auto&& tileSize = 78;
+    const auto&& distance = player2ThrowPos.x * tileSize;
+    const auto&& ratio = distance / 36;
+    SetScale({ratio, 3});
+    SetPosition({36 * ratio /2 + 25, 0});
+
 
     SetVisible(true);
     m_Drawable->SetCurrentFrame(0);
     m_Drawable->Play();
 }
+
 void SwipeArrow::Update() {
 
     m_CurrPlayTime += Util::Time::GetDeltaTimeMs();
     if (m_Drawable && m_StartPlayTime + 400 <= m_CurrPlayTime) {
-        LOG_DEBUG("test {}", m_StartPlayTime);
         SetVisible(false);
         m_Drawable->Pause();
     }

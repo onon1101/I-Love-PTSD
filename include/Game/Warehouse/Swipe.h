@@ -9,7 +9,7 @@ public:
     Swipe() = default;
     virtual ~Swipe() = default;
 
-    virtual void Play() = 0;
+    virtual void Play(const glm::ivec2& player2ThrowPos, std::pair<int, int> direct) = 0;
     virtual void Update() = 0;
 };
 }  // namespace Game::Warehouse

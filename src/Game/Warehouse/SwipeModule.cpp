@@ -15,9 +15,9 @@ void SwipeModule::AddSwipe(const std::string& type){
 
 void SwipeModule::PlayAnimation(std::size_t idx) {
     std::for_each(m_SwipeList.begin(), m_SwipeList.end(), [](const auto& elem) {
-        elem->Play();
+        elem->Play({2, 0}, {1 ,0});
     });
-    m_SwipeList[0]->Play();
+//    m_SwipeList[0]->Play();
 }
 
 void SwipeModule::Update() {

@@ -11,7 +11,7 @@ public:
     explicit SwipeArrow();
     virtual ~SwipeArrow() = default;
 
-    void Play() override;
+    void Play(const glm::ivec2& player2ThrowPos, std::pair<int, int> direct) override;
 
     void Update() override;
 

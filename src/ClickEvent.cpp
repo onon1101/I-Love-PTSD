@@ -46,29 +46,8 @@ void App::ClickEvent() {
      */
     m_EventHandler.AddEvent(
         [this]() {
-//            LOG_DEBUG(m_DungeonMap->GetMapData()->IsBossDead());
-//            m_sa->Play();
             m_MainCharacter->PlayAnimation();
-            // const auto& m_Drawable = std::make_shared<SpriteSheet>(
-            //     Players::Config::IMAGE_SWIPE_ARROW.data(),
-            //     glm::vec2{36, 24},
-            //     std::vector<std::size_t>{0, 1, 2, 3},
-            //     true,
-            //     100,
-            //     true,
-            //     100
-            // );
-            // const auto& obj = std::make_shared<Util::GameElement>();
-            // obj->SetDrawable(m_Drawable);
-            // obj->SetZIndex(Players::Config::VAL_ZINDEX);
-            // obj->SetScale(Players::Config::VAL_SCALE);
-            // obj->SetVisible(true);
-            // m_Camera->AddUIChild(obj);
-
-            // const auto& image =
-            // std::make_shared<Game::Warehouse::SwipeArrow>();
-            // m_Camera->AddUIChild(image);
-        },
+            },
         Util::Keycode::T
     );
 

@@ -70,6 +70,13 @@ static const glm::vec2 VAL_SCALE = {DUNGEON_SCALE, DUNGEON_SCALE};
 
 static const Util::Color VAL_COLOR_WHITE = Util::Color(255, 255, 255);
 
+enum class Direction {
+    RIGHT =0,
+    DOWN,
+    LEFT,
+    UP
+};
+
 }  // namespace Players::Config
 
 #endif  // FUCK_PTSD_PLAYER_CONFIG_H
